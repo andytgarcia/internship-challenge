@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 class StockPredictor:
-    def __init__(self, symbol='AAPL', period='2y'):
+    def __init__(self, symbol, period):
         self.symbol = symbol
         self.period = period
         self.model = None
@@ -179,7 +179,7 @@ if __name__ == "__main__":
 
     # Some stock symbols for testing + periods
 
-    stock_symbols = ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA', 'NFLX', 'FB']
+    stock_symbols = ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA', 'NFLX', 'PLTR', 'NVDA', 'META', 'AMD']
     print("Available stock symbols:" + ", ".join(stock_symbols))
 
     symbol = input("Enter stock symbol (default is AAPL): ").strip().upper() or 'AAPL'
