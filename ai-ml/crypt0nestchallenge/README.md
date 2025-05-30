@@ -30,3 +30,9 @@ Some of the things I could do if I had more time
 - More data sources: instead of relying only on Yahoo Finance price data, I could incorporate more data streams
 - Could implement more features such as Bollinger Bands or moving average ratios
 
+
+### Requirements to Run
+
+```bash
+pip3 install yfinance scikit-learn pandas
+```
